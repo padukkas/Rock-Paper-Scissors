@@ -1,0 +1,27 @@
+body {
+  background: lightblue;
+  font-family: ariel;
+  text-align: center;
+  font-size: 25px;
+  position: center;
+}
+h1{
+    text-transform: uppercase;
+    font-family: cursive; 
+}
+img {
+  padding: 10px;
+}
+
+img:hover {
+  transform: scale(1.2);
+  transition: all;
+}
+
+.body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 400px;
+}
